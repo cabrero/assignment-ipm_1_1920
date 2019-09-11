@@ -24,8 +24,8 @@ rutinas de ejercicios que ofrecerá a los futuros clientes del servicio
 que quiere implantar.
 
 Para el desarrollo y mantenimiento de dicha base de datos el jefe ha
-decidio que vas a desarrollar una aplicación de escritorio con
-interface gráfica.
+decidido que vas a desarrollar una aplicación de escritorio con
+interfaz gráfica.
 
 El desarrollo seguirá una arquitectura cliente/servidor básica, donde
 el servidor ofrece el acceso a la base de datos de rutinas y el
@@ -40,7 +40,7 @@ funcionalidades mencionadas no se incluyen en la presente misión.
 
 La estructura de la información tampoco presenta sorpresas: la BBDD se
 compone de una colección de rutinas. Por cada rutina tendremos su
-nombre, una imagen asociada, y una fecha de publicacción. A su vez,
+nombre, una imagen asociada, y una fecha de publicación. A su vez,
 cada rutina está conformada por una lista ordenada de ejercicios y por
 cada ejercicio disponemos de su denominación, duración, descripción y
 una imagen representativa. Como caso especial, en la lista de
@@ -88,7 +88,7 @@ de haber alcanzado las siguientes condiciones (_requirements_):
 
 Continuando con el caso de uso que dejaste abierto, tu siguiente
 cometido es diseñar los *wireframes* apropiadas para las priority
-guides. Para diseñar los wireframes usaras la herrmaienta PlantUML.
+guides. Para diseñar los wireframes usarás la herramienta PlantUML.
 
 Antes de moverte al siguiente cometido debes cumplir las siguientes
 condiciones:
@@ -108,7 +108,7 @@ trabajando.
 
 El diseño debe estar expresado según las indicaciones del estándar UML
 y debe cubrir tantos los aspectos estáticos como dinámicos del
-mismo. Para realizar el diseño usaras la herramienta PlantUML.
+mismo. Para realizar el diseño usarás la herramienta PlantUML.
 
 En este cometido debes cumplir las siguientes condiciones:
 
@@ -219,11 +219,11 @@ condiciones:
 
 El siguiente caso de uso al que te enfrentarás es "Eliminar rutina":
 
-> La usuaria puede eleminar una rutina seleccionada
+> La usuaria puede eliminar una rutina seleccionada
 
 Está permitido que incluyas uno o más mecanismos de borrado, como por
 ejemplo un botón de borrar, un menú contextual, la tecla de suprimir
-y/o retroceso, etc. Pero en cualquer caso tienes que incluir, al
+y/o retroceso, etc. Pero en cualquier caso tienes que incluir, al
 menos, un botón de borrado.
 
 Actualiza las *priority guides* y los *wireframes* para dar cobertura
@@ -243,7 +243,7 @@ condiciones:
 # DISEÑO SW E IMPLEMENTACIÓN H3-I1
 
 Completa el caso de uso actualizando el diseño software y la
-implementación. Asegurate de cumplir las siguientes condiciones:
+implementación. Asegúrate de cumplir las siguientes condiciones:
 
 * [Los ficheros "doc/ds/*.uml" están actualizados respecto a la versión "H2-T1"](check:)
 * [PlantUML compila correctamente los ficheros "doc/ds/*.uml"](check:)
@@ -260,7 +260,7 @@ implementación. Asegurate de cumplir las siguientes condiciones:
 Una vez completado el caso de uso anterior, vamos a arreglar los
 errores de usabilidad que puedas haber dejado atrás.
 
-Respecto al botón de borrado asegurate de seguir las siguientes directrices:
+Respecto al botón de borrado asegúrate de seguir las siguientes directrices:
 
 * Make invalid buttons insensitive, rather than popping up an error
   message when the user clicks them.
@@ -292,7 +292,7 @@ directriz:
   
 A esto hemos de añadir:
 
-* La interface no debe quedar bloqueada nunca.
+* La interfaz no debe quedar bloqueada nunca.
 
 Puesto que no conocemos a priori cuanto tiempo tardará el borrado en
 la base de datos, ni tenemos garantía de que sea menos de 1 segundo:
@@ -310,7 +310,7 @@ la base de datos, ni tenemos garantía de que sea menos de 1 segundo:
 Crea un diagrama de secuencia de una operación de borrado concurrente
 en el fichero "doc/ds/concurrencia.*"
 
-Enumera los cambios por los que pasa la interface durante la
+Enumera los cambios por los que pasa la interfaz durante la
 operación, p.e. desactivar botón de borrar, eliminar rutina de la
 vista, mostrar spinner o barra de progeso, etc.
 
@@ -328,7 +328,7 @@ Describe en un fichero "doc/concurrencia.txt" los resultados del
 estudio que acabas de realizar. Si hay posibles errores, haz un
 commit, vuelve al principio del cometido y arréglalos.
 
-Asegurate de cumplir las condiciones:
+Asegúrate de cumplir las condiciones:
 
 * [Existe un fichero "doc/ds/concurencia.*"](check:)
 * [PlantUML compila correctamente los ficheros "doc/ds/*.uml"](check:)
@@ -383,7 +383,7 @@ condiciones:
 # DISEÑO SW E IMPLEMENTACIÓN H4-I1
 
 Completa el caso de uso actualizando el diseño software y la
-implementación. Asegurate de cumplir las siguientes condiciones:
+implementación. Asegúrate de cumplir las siguientes condiciones:
 
 * [Los ficheros "doc/ds/*.uml" están actualizados respecto a la versión "UX-3"](check:)
 * [PlantUML compila correctamente los ficheros "doc/ds/*.uml"](check:)
